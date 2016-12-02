@@ -5,6 +5,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab5", "lab5\lab5.vcproj", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DLL", "DLL\DLL.vcproj", "{1B08022C-D065-4B95-A763-D9C14707BE26}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dlluser", "dlluser\dlluser.vcproj", "{437AAB8B-7604-43B9-9ED6-7C80817982EC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1B08022C-D065-4B95-A763-D9C14707BE26} = {1B08022C-D065-4B95-A763-D9C14707BE26}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +24,10 @@ Global
 		{1B08022C-D065-4B95-A763-D9C14707BE26}.Debug|Win32.Build.0 = Debug|Win32
 		{1B08022C-D065-4B95-A763-D9C14707BE26}.Release|Win32.ActiveCfg = Release|Win32
 		{1B08022C-D065-4B95-A763-D9C14707BE26}.Release|Win32.Build.0 = Release|Win32
+		{437AAB8B-7604-43B9-9ED6-7C80817982EC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{437AAB8B-7604-43B9-9ED6-7C80817982EC}.Debug|Win32.Build.0 = Debug|Win32
+		{437AAB8B-7604-43B9-9ED6-7C80817982EC}.Release|Win32.ActiveCfg = Release|Win32
+		{437AAB8B-7604-43B9-9ED6-7C80817982EC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
